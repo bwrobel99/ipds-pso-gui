@@ -180,7 +180,7 @@ export default {
       return new Promise((resolve, reject) => {
         this.loading = true;
         axios
-          .post("http://localhost:5000/calculate", {
+          .post("https://vast-fjord-65894.herokuapp.com/calculate", {
             places: this.places,
             petrol: this.petrol,
           })
